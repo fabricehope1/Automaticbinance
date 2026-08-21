@@ -1,0 +1,26 @@
+{
+  "name": "ai-crypto-trading-bot-pro",
+  "version": "2.0.0",
+  "description": "Professional AI Crypto Trading Bot — SMC/ICT strategy, 0-100 confidence scoring, adaptive recovery, Telegram channel delivery",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "pm2": "pm2 start index.js --name trading-bot-pro --watch false"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "ws": "^8.18.0",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "keywords": ["telegram", "bot", "crypto", "trading", "binance", "ict", "smc", "ai"],
+  "author": "",
+  "license": "MIT"
+}
